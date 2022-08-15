@@ -1,0 +1,49 @@
+{
+  "name": "nft-market-place",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "start": "next start -p $PORT",
+    "build": "next build",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.2.0",
+    "@pinata/sdk": "^1.1.23",
+    "autoprefixer": "^10.3.1",
+    "axios": "^0.21.1",
+    "bignumber.js": "^9.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.4",
+    "form-data": "^4.0.0",
+    "formidable": "^1.2.2",
+    "fs": "0.0.1-security",
+    "hardhat": "^2.6.0",
+    "ipfs-http-client": "^52.0.0",
+    "md5": "^2.3.0",
+    "modal-box-input": "^2.2.5",
+    "mongoose": "^6.0.3",
+    "next": "11.1.0",
+    "next-redux-wrapper": "^7.0.4",
+    "postcss": "^8.3.6",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.5",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "tailwindcss": "^2.2.7",
+    "uuid": "^8.3.2",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
